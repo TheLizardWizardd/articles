@@ -1,0 +1,34 @@
+Troubleshooting
+Check Network Status:
+
+Check the Frogfoot notice page to see if the client is affected by an outage.
+https://www.frogfoot.co.za/network-status
+Check power supply:
+
+Ensure the ONT is plugged in and powered on. 
+
+Check Cables:
+
+Ensure the fiber lead is secure.
+
+Check ONT lights:
+
+Broadband light: Should be lit to indicate a connection to the Frogfoot network. If not please log to Frogfoot
+
+
+Reboot device:
+
+Turn off the ONT at the wall power socket for a few seconds, then turn them back on. 
+
+Wifi:
+
+Frogfoot sends the WiFi network name (SSID) and Wi-Fi password directly to the
+customers by SMS. Customers will require the WiFi network name or SSID and
+password in order to connect their devices to the internet wirelessly.
+
+If a customer is unable to connect to the wifi:
+Test another device and if not working log to Frogfoot
+
+Limitations:
+Routers and extenders cannot be used with this product
+Range of Wifi enabled ONT is 100m
