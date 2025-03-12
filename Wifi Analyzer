@@ -1,0 +1,85 @@
+Download and install Wifi Analyzer 
+
+  
+
+After you install the app, find its shortcut and tap on it to launch the app. You can see how its shortcut looks in the screenshot below 
+
+ 
+
+
+ 
+
+ 
+
+Run Wifi Analyzer and view the wireless networks that are competing for bandwidth in your area 
+
+ 
+
+When you first start Wifi Analyzer, it takes you to the Channel graph screen for the 2.4 GHz wireless spectrum. If you open it a second time or more, it opens the last screen that you have used. 
+
+  
+
+In the Channel graph screen, you can see all the 2.4 GHz wireless networks that are available in your area, the channels that they are using and their relative signal strength. If you have a dual-band router that broadcasts a wireless network also using the 5 GHz frequency, you may want to switch to the 5 GHz wireless spectrum and see what the situation is. To do that, tap the top-left corner of the Wifi Analyzer app. In the top-left corner you should see 2.4 G as the current spectrum that is used for analysis. 
+
+ 
+
+
+ 
+
+See the rating for the channel that your wireless network is using : 
+
+  
+
+The Wifi Analyzer app for Android can also show the rating of the channel that your wireless network is using and make recommendations for using a channel that is less used by other wireless networks in your area. 
+
+  
+
+In order to see the rating, tap the button that looks like an eye, in the top-right corner of the Wifi Analyzer. 
+
+ 
+
+
+ 
+
+You are shown a list with other screens that you can navigate to : 
+
+ 
+
+
+ 
+
+Tap Channel rating.  
+
+ 
+
+
+ 
+
+ 
+
+The first time you navigate to this screen, you are shown all the networks in your area and you have to select the one that you are interested in. Tap on its name. In subsequent navigations to this screen the last network that you have selected is automatically loaded. 
+
+ 
+
+For the selected network, you see its name, current channel, the rating of the channel that the selected network is using, recommendations for better channels and the rating of each individual channel. If you have a dual-band wireless router, you might want to check the second wireless network that it is broadcasting. If that is the case, tap the name of the network that is currently selected. 
+
+ 
+
+
+ 
+
+The Select list is shown again. Tap the name of the next wireless network that you want to look at. As you can see, in our case, the 5GHz wireless network that is broadcast uses a channel with the maximum rating because that channel is not used by any other wireless networks in the area. 
+
+ 
+
+
+Now that you know which are the better channels that you should use for your wireless network, it is time to change the settings of your wireless router. 
+
+ 
+
+Set the best channel for your wireless network :  
+
+ 
+
+Go to your wireless router’s administration interface and change the settings of the wireless network(s) that it is broadcasting, so that it uses one of the channels that are recommended by the Wifi Analyzer app. You will enjoy better signal strength and faster transfers over the wireless network. 
+
