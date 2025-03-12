@@ -1,0 +1,56 @@
+When a customer is experiencing connectivity issues on a VPN connection the first would be to rule out that the VPN is causing these problems. 
+
+Standard troubleshooting will need to be performed to eliminate the possibility. You will need to troubleshoot and establish if this only happens via VPN. If the issue happens on the connection itself then you will need to perform intermittent connection troubleshooting. 
+
+If this issue only happens when a VPN is connected then please continue with the below. 
+
+Using a PC or a laptop connect the device via LAN/Ethernet cable to the router. 
+
+Next, open the Command Prompt via typing in “CMD” in the Search bar then select “Run as administrator” 
+
+
+
+
+ 
+
+How to Telnet
+After the command prompt opens you will be met with a black screen called the terminal. At a terminal prompt, run the command: Telnet <VPN IP Address> <VPN Port>
+
+Note: Do not include the <> when entering the IP Address. 
+
+ 
+
+If you see a blank cursor then the connection is fine. You can close the command prompt window. 
+
+If you get an error message that 'telnet' is not recognized as an internal or external command, operable program, or batch file” you will want to enable Telnet. 
+
+If you get an error or are unable to telnet to the server please contact your Network Administrator. 
+
+ 
+
+Example:  
+If the server's IP address is 192.168.0.100, then you will open the command prompt on the computer 
+
+Type: telnet 192.168.0.100 13531 
+
+
+
+Enable Telnet
+To enable Telnet, follow these steps: 
+
+Select Start, Control Panel, then Programs and Features (or Programs depending on the Operating System) 
+
+Select Turn Windows Features on or off on the left pane 
+
+Check the box for both Telnet Client and Telnet Server 
+
+Select OK 
+
+Verify that you can Telnet the port via the Command Prompt following the steps above 
+
+
+
+Traceroute and Ping
+You may also verify this by running a traceroute and ping to the VPN IP. 
+
+Using the same methods above open the Command Prompt and type in tracert <VPN IP Address> to run a trace of the computers route from the internet connection to the server and ping <VPN IP Address> -t to run a continuous ping the VPN connection. 
