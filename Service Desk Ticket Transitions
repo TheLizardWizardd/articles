@@ -1,0 +1,466 @@
+Service Desk Ticket Transitions
+ 
+
+This document will guide you through the transitions available to you on tickets in the Service Desk Department
+
+ 
+
+Add a Comment Transition
+Select the transition Add Comment.
+
+
+ 
+
+You will then fill in the required fields before completing the transition
+
+
+
+ 
+
+
+Type of Customer: This will be Consumer in most cases but can also be Business / Enterprise / Other Department / Rsaweb Staff or External Unknown Customer.
+
+Product Category: Here you will select the product the query is regarding
+
+Provider: Select the relevant provider from the dropdown list for the service query
+
+Has Route this been used: Please select yes or no
+
+Category and Subcategory: These will be chosen based on the client’s issue. Please see the Helpcenter article HERE for more information.
+
+ 
+
+NB – PLEASE ensure all comments added into the system are valid comment. Ie do not just use a full stop or say changing status. An example of an applicable comment would be Changing status due to needing the ticket in an In progress state to reach a specific transition. In this example, you would ensure the Status and Transition names in your comment are valid.
+
+ 
+
+ 
+
+Send Client Response Transition
+Select the Transition Send Client Response
+
+
+ 
+
+You will then fill in the required fields and provide your client a response. For example, if you have just spoken with the client over the phone this would be a summary of the call and further steps to be taken by the client or yourself/your colleagues (if required)
+
+
+
+
+ 
+
+
+
+Update is for follow up: When adding a client response to a new ticket this will be no. When you are adding a client response due to a client calling in to follow up on his query/issue this must be marked as yes.
+
+Type of Customer: This will be Consumer in most cases but can also be Business / Enterprise / Other Department / Rsaweb Staff or External Unknown Customer.
+
+Product Category: Here you will select the product the query is regarding
+
+Provider: Select the relevant provider from the dropdown list for the service query
+
+Category and Subcategory: These will be chosen based on the client’s issue. Please see the Helpcenter article HERE for more information.
+
+Reply All: You will add your reply to the client here
+
+Comment: You may add a comment at this stage if needed
+
+Attachment: You may add an attachment at this stage as well if required
+
+ 
+
+Closing Transition
+Select Close Ticket from the Transition list
+
+
+
+
+
+
+Please ensure the blueprint fields are filled in correctly as per the below
+
+ 
+
+
+
+ Type of Customer: This will be Consumer in most cases but can also be Business / Enterprise / Other Department / Rsaweb Staff or External Unknown Customer.
+
+Product Category: You will choose the service type associated with the call/issue
+
+Provider: Select the relevant provider from the dropdown list for the service query
+
+Has Route this been used: Please select yes or no
+
+Category and Subcategory: These will be chosen based on the client’s issue. Please see the Helpcenter article HERE for more information.
+
+Priority: All Consumer tickets are logged as Low priority
+
+Resolution Reason: You will need to select the relevant resolution reason from the drop-down list. The options presented in the drop-down are based on the category and subcategory of the issue/ticket
+
+ 
+
+Assign to {TEAM} Transition
+ 
+
+The Assign to {TEAM} transitions are for when a ticket needs to be assigned to another team in our department.
+
+Eg:
+
+Assign to Escalations – When this is available you are able to use the transition to move a ticket to the Service Desk Escalations team for them to assist.
+
+
+
+Type of Customer: This will be Consumer in most cases but can also be Business / Enterprise / Other Department / Rsaweb Staff or External Unknown Customer.
+
+Product Category: You will choose the service type associated with the call/issue
+
+Provider: Select the relevant provider from the dropdown list for the service query
+
+Category and Subcategory: These will be chosen based on the client’s issue. Please see the Helpcenter article HERE for more information.
+
+ 
+
+Comment: Please ensure you add a detailed explanation for your escalation
+
+Attachment: Attachments can be added at this stage if required
+
+Move to {DEPARTMENT} Transition
+The move to transitions is for when a ticket needs to be moved to another department
+
+To get the move to individual department options you will need to select the Move to a Department transition and complete it. No information is required for this step.
+
+
+
+
+
+You will then have access to a transition to each department and will select the correct one.
+
+Eg:
+
+Move to Consumer Sales - Tickets that require a sales person to assist go here
+
+Move to Consumer Projects - If a FTTH order is still in progress and you need to esclate or get info not available to you on the order
+
+Move to Operations - Billing issues with new orders can be moved here
+
+Move to Accounts - Billing Related queries
+
+Move to Cancellations - If a client indicates they wish to cancel please send here. Please also make sure its not a technical issue we can resolve causign the client to cancel.
+
+Move to Enterprise Projects - Queries for Enterprise clients on existing projects
+
+Move to Enterprise Sales - Queries for Enterprise clients, particullary up selling can be assigned here
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Submit FNO Fault Transition
+When you are required to log a fault for a client with one of our Vendors please start with the Submit FNO fault Transition. Once complete you will have access to the No Connection / Slow Speed / Disconnects Transitions
+
+Once you have completed the Submit FNO Fault Transition you will be offered three transitions based on the type of fault being logged.
+
+ 
+
+ 
+
+Type of Customer: This will be Consumer in most cases but can also be Business / Enterprise / Other Department / Rsaweb Staff or External Unknown Customer.
+
+Product Category: You will choose the service type associated with the call/issue
+
+Provider: Select the relevant provider from the dropdown list for the service query
+
+Circuit Number: The unique reference number for the line
+
+Line Status: Please select the current status of the client’s line from the dropdown
+
+o   The line is up
+
+o   The line is down
+
+o   The line has low signal
+
+o   Loss of power
+
+ 
+
+Power and Lights: Please select what state the lights on the ONT are in from the dropdown
+
+o   There is no lights
+
+o   No PON Light
+
+o   No Internet Light
+
+o   Red PON and ALM is red
+
+o   No lan Light
+
+o   All the lights are green and correct
+
+Comment: A brief description of why you are logging a fault
+
+ 
+
+No Connection Transition
+ 
+
+
+
+
+Category and Subcategory: These will be chosen based on the clients issue. Please see the Helpcenter article HERE for more information.
+
+Ip Address: You will choose from the following drop down list
+
+o   Client has our IP address
+
+o   There is no IP address
+
+o   Incorrect IP address
+
+Router Tests: You will select all applicable options from the following multi-select drop down list
+
+o   Router has been reset
+
+o   Router has been rebooted
+
+o   Firmware is up to date
+
+Cable Tests: You will select all applicable options from the following multi-select drop down list
+
+o   Cat5E or higher cable in use
+
+o   Another cable has been tested
+
+o   Cable is to short
+
+o   Cable needs to be upgraded to CAT6
+
+o   (re-seat) Unplugged and plugged cable back in
+
+o   Ethernet/Lan light is not on
+
+ 
+
+NB: If End user device has no ethernet port, you will need to assign onsite support. Provider fault should not be logged.
+
+ 
+
+Testing to the ONT: You will choose from the following drop down list
+
+o   Connection is dropping from the ONT
+
+o   Speeds are slow from the ONT
+
+o   No Connection from the ONT
+
+o   Tried PSM Activation
+
+o   PPP Dialer
+
+Pings and traces complete on?: You will choose from the following drop down list
+
+o   Command Prompt
+
+o   WinMTR
+
+o   Pingplotter
+
+ 
+
+NB! - Please insert the ping and traceroutes results for IP no breakout. If no test results have been provided to you by the client, you will be required to advise the client on potential unnecessary callout fee.   
+
+Attachment: Add attachments here if required (eg WinMTR results)
+
+Comment: you can leave a comment at this stage if needed
+
+ 
+
+Slow Speed Transition
+ 
+
+
+
+Category and Subcategory: These will be chosen based on the clients issue. Please see the Helpcenter article HERE for more information.
+
+ 
+
+Router Tests: You will select all applicable options from the following multi-select drop down list
+
+o   Router has been reset
+
+o   Router has been rebooted
+
+o   Firmware is up to date
+
+Cable Tests: You will select all applicable options from the following multi-select drop down list
+
+o   Cat5E or higher cable in use
+
+o   Another cable has been tested
+
+o   Cable is to short
+
+o   Cable needs to be upgraded to CAT6
+
+o   (re-seat) Unplugged and plugged cable back in
+
+o   Ethernet/Lan light is not on
+
+ 
+
+NB: If End user device has no ethernet port, you will need to assign onsite support. Provider fault should not be logged.
+
+ 
+
+Testing to the ONT: You will choose from the following drop down list
+
+o   Connection is dropping from the ONT
+
+o   Speeds are slow from the ONT
+
+o   No Connection from the ONT
+
+o   Tried PSM Activation
+
+o   PPP Dialer
+
+ 
+
+Speedtest completed on? : Select the source of the clients speedtest from the dropdown
+
+o   Ookla Website (Speedtest.net)
+
+o   Ookla Application
+
+o   Routethis Speedtest
+
+o   Shop.vumatel
+
+o   Mybroadband
+
+Pings and traces complete on?: You will choose from the following drop down list
+
+o   Command Prompt
+
+o   WinMTR
+
+o   Pingplotter
+
+Attachment: It is a requirement to attach the results of your speed tests, ping, and traceroutes results
+
+ 
+
+Disconnects Transition
+ 
+
+ 
+
+
+Category and Subcategory: These will be chosen based on the clients issue. Please see the Helpcenter article HERE for more information.
+
+Ip Address: You will choose from the following drop down list
+
+o   Client has our IP address
+
+o   There is no IP address
+
+o   Incorrect IP address
+
+Router Tests: You will select all applicable options from the following multi-select drop down list
+
+o   Router has been reset
+
+o   Router has been rebooted
+
+o   Firmware is up to date
+
+Cable Tests: You will select all applicable options from the following multi-select drop down list
+
+o   Cat5E or higher cable in use
+
+o   Another cable has been tested
+
+o   Cable is to short
+
+o   Cable needs to be upgraded to CAT6
+
+o   (re-seat) Unplugged and plugged cable back in
+
+o   Ethernet/Lan light is not on
+
+ 
+
+NB: If End user device has no ethernet port, you will need to assign onsite support. Provider fault should not be logged.
+
+ 
+
+Testing to the ONT: You will choose from the following drop down list
+
+o   Connection is dropping from the ONT
+
+o   Speeds are slow from the ONT
+
+o   No Connection from the ONT
+
+o   Tried PSM Activation
+
+o   PPP Dialer
+
+Pings and traces complete on?: You will choose from the following drop down list
+
+o   Command Prompt
+
+o   WinMTR
+
+o   Pingplotter
+
+ 
+
+NB! - Please insert the ping and traceroutes results for IP no breakout. If no test results have been provided to you by the client, you will be required to advise the client on potential unnecessary callout fee.   
+
+Attachment: Add attachments here if required (eg WinMTR results)
+
+ 
+
+ 
+
+Incident Logged to FNO Transition
+
+Once3 you have completed either the No Connection, Slow Speed or Disconnects transition you will have access to the Incident Logged to FNO
+
+
+
+Fault Reference: Here you will add the FNO reference for the fault you logged
+
+WAN IP address: provide the clients current WAN IP
+
+Router MAC address: provide the clients routers MAC address (Physical Addres)
+
+Attachment: You can add attachments here if needed, eg Images sent to us by the client that we provided to the FNO (if not already attached to the ticket previously)
+
+ 
+
+ONT FSAN/SN number: The ONT FSAN/SN Number is insisted upon by the following FNOs: Octotel, Vumatel, Openserve, and MFN and will be added tothis field.
+
+ 
+
+Comment: You can add a comment if needed
+
+ 
+
+The ticket is then automatically assigned to the escalations team for follow-up.
