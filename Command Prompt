@@ -1,0 +1,42 @@
+What is Command Prompt
+The Command Prompt is a program that emulates an input field in a text-based user interface screen. It can be used to execute commands and perform advanced administrative functions, troubleshoot, and solve Windows issues.
+
+Using a PC or a laptop connect the device via LAN/Ethernet cable to the router. 
+Open the Command Prompt by typing in “CMD” in the Search bar then select “Run as administrator” 
+
+
+
+ 
+After the command prompt opens you will be met with a black screen called the terminal. At a terminal prompt, run any of the following commands depending on the client's issue:  
+ 
+Common commands
+Network: 
+ 
+ftp 
+transfer files to a FTP server 
+ftype 
+display file type and mapping 
+getmac 
+display MAC address 
+ipconfig 
+display IP network settings 
+netsh 
+configure/control/display network components 
+netstat 
+display TCP/IP connections and status 
+nslookup 
+query the DNS 
+pathping 
+test the connection to a specific IP address 
+ping 
+pings the network 
+route 
+display network routing table, add static routes 
+systeminfo 
+displays computer-specific properties and configurations 
+telnet 
+establish Telnet connection 
+tftp 
+transfer files to a TFTP server 
+tracert 
+trace routes similar to patchping 
