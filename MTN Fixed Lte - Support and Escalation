@@ -1,0 +1,980 @@
+Table of contents
+This is a fixed LTE service; the customer cannot move the router between different premises
+The router will only work within 5KMs of the fixed address which is the RICA address unless a change has been requested.
+The customer may change the address up to 3 times a year should their fixed address change, subject to feasibility.
+RICA may fail due to many lines RICA’d against a specific ID number, this will result in a RICA error: RICA Pre-Paid Registration Threshold Per ID/Passport Number Limit Reached
+In this instance a copy of address and ID needs to be sent to MTN in order to allow for further RICA, this can take up to 48 business hours as it is done by the regulatory and not MTN or RSAWEB.
+Service Information
+APN
+ APN Name: RSAWEB
+
+APN: ws.rsaweb.fwa
+
+ 
+
+Packages
+https://www.rsaweb.co.za/connectivity/fixed-lte/
+
+SIM Only
+
+Price p/m
+
+FixedLTE 10GB (5GB+5GB)
+
+R95,00
+
+FixedLTE 50GB (25GB+25GB)
+
+R195,00
+
+FixedLTE 100GB (50GB+50GB)
+
+R345,00
+
+FixedLTE 200GB (100GB+100GB)
+
+R545,00
+
+FixedLTE 500GB (250GB+250GB)
+
+R1 495,00
+
+ 
+
+SIM and Router Rental
+
+Price p/m
+
+FixedLTE 10GB (5GB+5GB)
+
+R145,00
+
+FixedLTE 50GB (25GB+25GB)
+
+R245,00
+
+FixedLTE 100GB (50GB+50GB)
+
+R395,00
+
+FixedLTE 200GB (100GB+100GB)
+
+R595,00
+
+FixedLTE 500GB (250GB+250GB)
+
+R1 545,00
+
+ 
+
+Topup
+
+Price
+
+FixedLTE 1GB Anytime
+
+R10,00
+
+FixedLTE 2GB Anytime
+R20,00
+FixedLTE 5GB Anytime
+
+R45,00
+
+FixedLTE 10GB Anytime
+
+R70,00
+
+FixedLTE 20GB Anytime
+
+R140,00
+
+FixedLTE 50GB Anytime
+
+R300,00
+
+FixedLTE 100GB Anytime
+
+R600,00
+
+
+Nightsurfer
+The data rules below are in effect.
+Data Rules
+
+Our data packages consist of two types of data, Anytime Data and Nighttime Data
+Please note the oldest data package for the applicable time period will be used first. Ie First in first out.   As an example if you have run out of anytime data and still have Nightsurfer data and top-up you will be using the nightsurfer data during the night anoutside those hours. If you have topup data left after Month end that will be used before your new months data cap.
+
+Anytime Data
+
+Anytime data is valid for 61 days
+
+Nighttime Data
+
+During the hours of 12pm to 4:59am Nightsurfer data will be used instead of anytime data assuming there is Nightsurfer data available.  Expires within the same calendar month
+
+Top Ups
+Valid for 30Days from purchase and are only Anytime data
+
+Capping
+
+NB! If the client is out of anytime data they are considered capped and cannot access Nightsurfer data until they have topped up their anytime data. Nightsurfer data is considered free and can only be used when the account has anytime, paid, data available
+
+Hardware Information
+This service requires a cat6 router and needs to be on the below approved device list supplied by MTN
+
+
+Billion BiPAC 8206 AZ
+HUAWEI 5G CPE PRO 2
+HUAWEI B2368
+HUAWEI B2368-22
+HUAWEI B2368-57
+HUAWEI B2368-66
+HUAWEI B525S-23A
+HUAWEI B525S-65A
+HUAWEI B525S-95A
+HUAWEI B535-932
+HUAWEI B612-233
+HUAWEI B612-533
+HUAWEI B612S-25D
+HUAWEI B612S-51D
+HUAWEI B612S-52D
+HUAWEI B618S-22D
+HUAWEI B618S-65D
+HUAWEI B618S-66D
+HUAWEI B818-263
+MIKROTIK CHATEAU LTE12
+TP-LINK ARCHER MR600(EU)2.0
+VIDA CPE4000-PLUS
+VIDA CPE4000-PRO
+ZTE 5G CPE MC801A
+ZTE MF286
+ZTE MF286A
+ZTE MF286C
+ZTE MF286C1
+ZTE MF286D
+ZTE MF286R
+ZYXEL LTE7460
+ZYXEL LTE7480-M804
+
+The following TP-Link has also been approved by MTN
+
+TP-LINK 4G AC1200 Dual Band Gigabit Router
+
+
+Some examples from the list above :
+
+
+
+Two routers are provided by Rsaweb for this product.
+
+LTE MF286C1 ZTE
+TP-LINK 4G AC1200 Dual Band Gigabit Router
+
+Router : TP-LINK 4G AC1200 Dual Band Gigabit Router
+
+For setting up the router follow the below steps
+
+1) Navigate to 192.168.1.1 in a web browser on a PC connected to the router to get to the router interface. If that is not the correct IP use the default gateway you see listed against the network card the router is connected to when you do an ipconfig /all
+
+
+
+2) Type in default username and password: admin
+
+
+
+3) Once logged in click on Advanced at the top of the interface then Network from the menu on the left.
+
+
+
+Click Internet under the Network Menu
+
+
+
+Select Create Profile
+
+
+
+Profile name: RSAWEB
+APN type: Static
+APN: ws.rsaweb.fwa
+Authentication Type: None
+
+
+Router : LTE MF286C1 ZTE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Indicator Lights
+
+Indicator
+
+State
+
+Description
+
+POWER
+
+ 
+
+Blue ON
+
+Power is on and external power supply is working normally.
+
+OFF
+
+Power is off or external power supply is working abnormally.
+
+WIFI
+
+ 
+
+Blue ON
+
+WLAN works normally with no data transmission.
+
+Blue Blinking
+
+WLAN works normally with data transmission.
+
+OFF
+
+WLAN works abnormally or the WLAN function is disabled.
+
+SIG  
+
+
+
+Blue ON
+
+Signal strength is very good or good.
+
+Blue Blinking
+
+Signal strength is weak.
+
+OFF
+
+There is no signal.
+
+G/G  
+
+
+
+Red
+
+The device is turned on but not registered to the mobile network.
+
+Blue Blinking
+
+The device is connected to the LTE network and data is being transferred.
+
+Blue Solid
+
+The device is registered to the LTE network.
+
+Green
+
+Blinking
+
+The device is connected to the G network and data is being transferred.
+
+Green Solid
+
+The device is registered to the G network.
+
+LAN  
+
+Green ON
+
+The LAN port is connected.
+
+Green
+
+Blinking
+
+The LAN port is connected with data transmission.
+
+OFF
+
+The network cable is not connected.
+
+ 
+
+Router Access
+
+Launch the Internet browser and enter http://192.168.0.1/ in the address bar to reach the login page.
+
+
+
+Input the password and then click
+Login
+. The default password is admin.
+
+Once logged in you will be presented with the router options page
+
+
+
+
+
+
+1 – Connection Type – Should always be LTE
+
+2 – Service network – Should always be MTN
+
+3 – Signal Strength Indicator
+
+4 – Connection Status – The arrows indicate throughput when they turn green and gray when no throughput
+
+5 – SIM Status – Indicates a valid SIM card is present in the device
+
+6 – Wifi Status – Indicates whether the routers wifi is active or not
+
+7 – Access Device – Shows devices connected by cable and by wifi
+
+
+
+8 – My Router – LTE and WIFI Settings
+LTE Slider must be selected as ON
+LTE Connection Settings
+
+
+
+
+
+
+
+
+
+
+
+A – Connection Mode – This should be left as default as per the below
+
+
+
+B – Network Selection – This should be left as the default
+
+
+
+C – APN Settings
+
+
+Ensure the RSAWEB APN is selected and is setup with the correct details as per the above
+WIFI Settings
+
+
+
+The above settings can be changed with the client at their request for the 2.4Gz and 5Gz network
+
+9 – Net Surfing – Real-time data transfer information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A – Connection Length – Displays the connections uptime
+B – Data Download – Shows Data being downloaded
+C – Data Upload – Shows Data being uploaded
+ 
+
+10 - Statistics – Data usage estimator – This is not recommended as it expects a single datacap while our nightsurfer enabled bundles use data from two separate caps
+
+
+
+
+11 – Status Information – A Broad overview of the connection Status including Signal Strength and IMEI number
+
+
+
+12 – Parental control – optional for client
+13 – SMS – NOT SUPPORTED
+
+14 – PHONEBOOK – NOT SUPPORTED
+
+15 – Advanced settings
+
+
+
+A-      Power-Save – The ZTE device has the ability to use a battery and when on battery you can prolong the battery life by selecting different power options. NB BATTERY NOT PROVIDED
+
+B – Router Settings - Here we can see and adjust router specific settings. They default settings below are reccomended.
+
+
+
+
+C – Firewall – If the client requires custom firewall rules they can add them here
+
+
+D – Update – Section for checking version and updating router firmware
+
+
+
+E – Other Advanced Settings
+
+
+
+Here we can both restart the device via the interface or reset the device to factory settings
+
+             i – PIN MANAGEMENT – NOT SUPPORTED
+
+ii – Reboot Scheduling – Clients can set there router to restart once or on a timed schedule
+
+
+
+iii – SNTP – Time Settings – These should not need to ever be changed from default
+
+
+
+iv – Network Tools – Here we can perform PING and TRACRT test directly from the router
+
+                
+
+               
+
+v – Diagnostics – The diagnostic section can tell you at a glance if there are any obvious issues with the setup.
+
+                
+
+LTE PORTAL
+To access the LTE portal you will either follow the link from the Myrsaweb home screen or use the URL : https://lte.myrsaweb.co.za/
+Dashboard
+When logged into the dashboard you will be presented with information pertaining to RSAWEB and the LTE connections loaded under that profile (RIS003). For us to assist clients we access the admin section from the menu on the left.
+
+
+
+From that menu we then select orders
+
+
+
+On this page we can see a list of all active clients as well as search for the client in question in order to gain access to their profile
+
+
+
+COPY/CSV/Search
+The search field allows you to narrow down the results displayed. using the copy option will save a copy of all listed search results, if no search term is input the function will copy all results. to your clipboard to paste elsewhere. Similarly the  CSV option allows you to save the displayed results as a .csv file.
+
+
+
+The customer list is broken up into a series of columns that are also searchable fields
+#ID - This is the Unique identifier for the service in this system and will not be used in a support capacity
+CUSTOMER - The name of the customer as per their Myrsaweb profile, this is also a link to the aforementioned profile
+PACKAGE - The LTE Package the client is on
+STATUS - This first status field is the status of the SIM card with MTN
+SIM NO - Unique identifier for the SIM card
+MSISDN - The circuit number or telephone number of the SIM. Please note this number is not active for calling
+STATUS (2) - This second status is for displaying the current LTE connection status
+USAGE - The clients total usage for the month period (This will likely change with the introduction of anytime and nightime data)
+ADDRESS - The address the client has the service at
+LAST UPDATE - The last time an update was made to the clients service
+PRICE - The price of the clients service per month
+
+MORE DETAILS - The last column is where we go to view more details of a clients connection as well as perform management actions
+
+
+Client Details Page
+
+
+The client details page is split into 4 sections. Client Information, RICA Details, GPS Details as well as a section to show logs
+1) Info
+The info section provides basic details about the service including a link to the clients profile in Myrsaweb
+2) Rica
+The Rica section shows the details of who the SIM card is RICA'd to
+3) GPS
+The GPS section shows a map with the client current location. This section also allows us to update the gps details as per the below
+
+
+
+In the address search bar type in the new address and then select the correct address from the list that appears
+
+
+
+The new address will then be shown and will indicate if the new address is feasible for MTN fixed LTE. if feasible then you can click the "Update GPS" button to send the new address to MTN.
+
+SIM LOG
+
+
+The SIM LOG section will display information about previous topups the client has done.
+
+EVENT LOG
+
+
+The event log is where all the previous information regarding activation, RICA and GPS will be displayed.
+
+
+Troubleshooting
+Activation
+The service in Myrsaweb will automatically be run when the client successfully connects. As such the service not being run in myrsaweb is an indication the service is not connected and is not an issue that would prevent connection.
+No Connection
+Has the router been rebooted?
+
+Has the router been hard reset and reconfigured? (Using either a toothpick or paperclip and holding down the reset button at the back of the router while turned on.)
+
+Under the second circle "My router", does it display UMTS or LTE?
+
+- If it displays LTE and is turned off, please turn it ON
+
+Has the following been confirmed in the router APN:
+
+- PDP Type: IPv4
+
+- Profile Name: RSAWEB
+
+- APN: ws.rsaweb.fwa
+
+Remove the sim card and then re-insert it again
+
+What colour is the 3G/4G light?
+
+Router signal strength: (Status Information – A Broad overview of the connection Status including Signal Strength and IMEI number)
+
+
+UMTS
+When the client's device is showing UMTS as the network type instead of LTE this is usually due to the SIM not being provisioned correctly with either RICA or GPS details
+
+Slow speeds
+Is this happening on all devices that are connected?
+
+Check that no devices are running background app/widgets that could be affecting speeds
+
+Test results of the speeds they are getting - Run a speed test to https://www.speedtest.net/ (Test to both RSAWEB and MTN server)
+
+Move the router to different areas in the house as this could be related to signal issues
+
+Remove the sim card and then re-insert it again
+
+Has the router been hard reset and reconfigured? (Using either a toothpick or paperclip and holding down the reset button at the back of the router while turned on.)
+
+Router signal strength: (Status Information – A Broad overview of the connection Status including Signal Strength and IMEI number)
+
+
+Connection Quality or Drops
+
+
+Check that the router maintains power when drops occur.
+Is this happening on all devices that are connected?
+Check that no devices are running background app/widgets that could be affecting speeds
+
+Router signal strength: (Status Information – A Broad overview of the connection Status including Signal Strength and IMEI number)
+
+Perform Ping and Traceroute tests to the site they are having issues
+
+User to provide disconnect times
+
+
+Relocations
+
+For relocations we will require
+
+- Line number
+
+- Users name and contact number for more information (if we are unable to pick up the address on our end)
+
+- New address
+
+Sim Swap - Lost or damaged SIMS
+
+Escalate to Projects - Logistics
+
+Callouts
+
+Please note this product does not qualify for onsite visits
+Usage and Service Management
+ Clients will be able to view their usage as well as manage the service when logged into Myrsaweb by clicking on the Fixed LTE section as per the below
+
+
+
+They will then be logged into lte.myrsaweb.co.za and presented with a list of Fixed MTN LTE products under their account
+
+
+
+
+Selecting a service will load the information page for that particular service.
+
+
+
+The user will then be presented with all the information applicable to their service as per the below
+
+
+
+1) Usage
+      The circle graph shown is displayed as a percentage of the clients cap and is split into Used and Remaining Data. (This will change when Nightsurfer is implemented)
+      Below the graph we see the total data remaining for the client.
+
+2) Topup
+      Section for clients to apply data topups. Please note for this service these are prepaid and billed as added. Please note clients must log in and do this themselves as it is a pre paid product and banking details will be required by the payment gateway.
+
+3) Upgrade/Downgrade
+     Clients and staff can apply for upgrades and downgrades here. These will take effect at the beginning of the next month. Please note clients must log in and do this themselves as it is a pre paid product and banking details will be required by the payment gateway.
+
+
+
+4) Service Information
+      Status - Shows us the current status of the client SIM card - A list of possible status's are available below
+      Last IP - The live IP the service last used to connect on. For most cases this will also be the current live IP
+      SIM - SIM Number
+      Rica Contact - The Indicidual or business name under which the SIM is registered for RICA
+      Location - This is where the fixed LTE service is registered to and must be used at.
+5) Logs     
+      This is a staff only section where we can see the various changes and actions applied tot he SIM card
+RICA
+We can check if the clients Sim has been successfully rica'd by looking at the order under their profile and checking for the following
+if the Rica process has failed you will see a notification of such as well as a reason on the next line
+
+
+
+If the Rica process has succeeded we will see confirmation as per the following.
+
+
+ 
+This is a fixed LTE service and as such the customer cannot move the router around
+
+• The router will only work within 5 KMs of the fixed address which is the RICA address unless a change has been requested
+. • The customer may change the address up to 3 times a year should their fixed address change, subject to feasibility.
+• RICA may fail due to many lines RICA’d against a specific ID number , this will result in a RICA error : RICA Pre - Paid Registration Threshold Per ID/Passport Number Limit Reached
+• In this instance a copy of address and ID needs to be sent to MTN in order to allow for further RICA, this can take up to 48 business hours as it is done by the regulatory body and not MTN or RSAWEB.
+
+Increasing the RICA Threshold Limit
+This is only done in extreme cases and should be clarified with the sales agent as an email will need to be sent to our MTN AM Requesting this.
+
+Lindiwe Magubane [ MTN South Africa ] < Lindiwe.Magubane@mtn.com >
+RICA – uplifting the threshold -  for individual we require copy of ID and proof of address – ETA for limit lift is  2-3 days
+Business RICA – uplifting the threshold – for business we require copy of directors ID, proof of address, and company letterhead requesting the RICA lift – ETA 2-3 days
+
+Portal Information and Reporting a Fault
+Log into the MTN portal
+https://mtnsi.mtn.co.za/newcsp
+
+
+
+The purpose of the self-help menu is to lookup relevant information related to a MSISDN , i.e., Subscriber Profile , Cell Information and related Sim Information , it also allows you to enter a customers GPS coordinates and get a view of the type of MTN coverage available.
+
+
+
+MSISDN Lookup : Service Suspended - Location locked
+
+
+
+
+MSISDN Lookup : Service Suspended   - Device locked
+
+
+
+
+MSISDN Lookup : Service Suspended - Compliance locked
+
+
+
+
+Location Lookup
+
+
+
+
+Log a Support Ticket
+
+The purpose of ‘log ticket’ functionality   is to enable the FLTE partner to open a trouble ticket with MTN related
+
+  to either   1) Network coverage , 2) Single Service Issue , 3) Suspected MTN Network issue
+
+
+Coverage Issue
+
+
+
+Service Issue: Single MSISDN
+
+Issue Type
+
+• SIM Swop
+• Suspend
+• RICA issue
+• DMA issue
+• Unable to make calls
+• Unable to receive calls
+• General issue with MSISDN
+
+
+
+Network Issue: Multiple MSISDN’s
+
+Issue Type
+
+• General DMA issue
+• General RICA issue
+• MTN Site or Area down
+• General DNS issue
+• General HSS issue
+• Multiple Customers unable to make calls
+• Multiple Customers unable to receive calls
+• No network Coverage
+• General issue with multiple MSISDN
+
+
+
+Query Tickets
+
+
+The purpose of ‘Query ticket’ is to view all open support tickets logged with MTN, including the Log date/time, ticket number and current status updates
+
+
+
+
+MAPS
+The purpose of ‘Map’ is to view MTN’s available coverage based on a customer's physical address
+
+
+
+
+FAQ
+The purpose of ‘FAQ’ is to provide a list of common issue and possible troubleshooting suggestions
+
+
+
+
+
+Order Processing
+
+
+1. Order placed on Website and payment made
+2. Lead generated, Json field must be populated check for
+      a. SKU (Product codes)
+      b. Price
+      c. Quantity
+      d. Paid = True
+3. Once lead converted to deal and won the Json should still reflect on deal and project card
+4. The following are mandatory on MyRSAWEB for LTE specifically:
+      a. ID number
+      b. Customer contact account and technical
+      c. RICA Address
+5. The following are mandatory on the project card for LTE specifically, your order will not
+be placed successfully f this is not on the card:
+      a. Install address (RICA Address)
+      b. Delivery address (customers can change this when CCD calls to schedule delivery)
+      c. Json field populated with correct SKU’s customer ordered
+      d. Email address
+      e. Contact number
+      f. Paid = True must be visible in the Json field or your order will not be processed
+6. Welcome status: this will place the order on MyRSAWEB and Convergex, you will see a
+successful order status come back as “Carrier API success”
+7. An invoice for the hardware ordered and paid for will reflect on MyRSAWEB once the
+order is placed and a
+8. The order will then poll for updates every hour
+9. Once a “delivered’ status is received the order will then run and add the service to the
+customer profile
+      a. the customer will not be pro-rated as he pays upfront for his service
+      b. the customer will be allocated his full data bundle
+      c. the customer will get billed for the next month if his service is run from the 20th to
+            the end of the month as billing would have been processed.
+10. “Delivered” statues will trigger the SIM number to be sent to MTN via API to process RICA
+and activate the SIM, the “RICA Sent” status triggers an SMS to the client to insert their
+SIM into their device which is required to geo lock the SIM card and complete activation.
+11. A customer may get delivery at 10AM but delivered statuses only returns in the
+afternoon once the driver is back at the depo and the RICA documentation has been
+checked and uploaded.
+12. RICA and LTE service checks can be seen on lte.myrsaweb.co.za portal, please use your
+MyRSAWEB credentials to login.
+
+Escalation Procedure
+ When the normal trouble repair process does not meet your needs, you may follow these basic escalation procedures:
+
+ Call the CNOC (083 869 0685) and ask to speak to the Team Leader.
+
+ Supply the trouble ticket reference number.
+
+
+OFFICE HOURS
+
+
+Level
+
+
+Escalation Path
+
+Contact Number
+
+Email Address
+
+L0
+
+For Ticket Logging Only [24/7]
+
+083 123 0000
+
+wholesaleza@mtn.com
+
+L1
+
+  MNS Desk   - 24/7 Support
+
+[Follow-up on Existing Tickets]
+
+083 123 0000
+
+MNSDesk.za@mtn.com
+
+L2
+
+MNS Support Supervisor 1
+
+MNS Support Supervisor 2
+
+087 260 3969
+
+087 740 0670
+
+ 
+
+L3
+
+MNS Support Manager
+
+087 740 0698
+
+ 
+
+L4
+
+Escalation Senior Manager
+
+087 740 0244
+
+ 
+
+
+
+
+
+
+
+
+AFTERHOURS
+
+Level
+
+Description
+
+Contact Number
+
+Email Address
+
+L0
+
+For Ticket Logging Only [24/7]
+
+083 123 0000
+
+wholesaleza@mtn.com
+
+L1
+
+  MNS Desk   - 24/7 Support
+
+[Follow-up on Existing Tickets]
+
+083 123 0000
+
+MNSDesk.za@mtn.com
+
+L2
+
+Afterhours Duty Manager
+
+087 740 0139
+
+ 
+
+L3
+
+Escalation Manager
+
+087 740 0278
+
+ 
+
+L4
+
+Escalation Senior Manager
+
+087 740 0244
+
+ 
+
+
+LTE Team Contacts
+
+Patience Mdanda (Manager) -  Patience.Mdanda@mtn.com  - 083 212 0119
+Rasigan Govender (Senior Manager) -  Rasigan.Govender@mtn.com  – 083 209 2968
+Sham Pillay (GM) -  Sham.Pillay@mtn.com  – 083 212 2797
+
+Link to article: https://support.rsaweb.co.za/agent/rsaweb/all/help-center/page?articlestatus=published&showAllArticles=true&rootcategoryId=6557000000057106&categoryId=6557000281013719&status=published#Solutions/dv/6557000221253173/en
