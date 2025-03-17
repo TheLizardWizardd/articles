@@ -1,0 +1,300 @@
+Troubleshooting Guide: Fixed LTE Service
+
+ 
+
+ 
+
+1. General Service Information
+
+Fixed Service: The LTE router is tied to a fixed address and cannot be moved between premises.
+Location Restriction: The router operates only within 5 KM of the RICA-registered address unless a change is requested. However, moving the router frequently—even within that 5 KM radius—can lead to an unstable connection. We cannot guarantee service quality if the router is relocated from the activation address.
+Address Changes: Customers can change their address up to 4 times a year, subject to feasibility. Please note that once the new coordinates are updated, the automation process may take up to 48 hours
+ 
+
+ 
+
+2. RICA Process
+
+RICA Limitations:
+RICA may fail if multiple lines are registered under a specific ID, triggering an error: RICA Pre-Paid Registration Threshold Per ID/Passport Number Limit Reached.
+In this case, send a copy of the customer's ID and proof of address to MTN. No later than 3months. Processing this request can take up to 48 hours.
+RICA Confirmation:
+To confirm successful RICA, check the customer's order profile for confirmation or error messages.
+Increasing RICA Threshold:
+For individuals: Send a copy of the ID and proof of address to uplift the threshold. ETA: 2-3 days.
+For businesses: Send the director’s ID, proof of address, and a company letterhead.
+Customer Portal: A customer uses the Enterprise FLTE Management Portal to place and track orders. Timeline: The process typically takes 2-5 days from order placement to completion.
+
+ 
+
+ 
+
+3. Service Management & Usage
+
+Uncapped Data Plans:
+Plans are uncapped but subject to a Fair Usage Policy (FUP). Exceeding the FUP results in a speed limit of 2Mbps.
+Customers will receive notifications when they approach their threshold, giving them time to top up if necessary.
+ 
+
+Code
+
+New Uncapped FixedLTE Products
+
+Price ex VAT
+
+Price incl VAT
+
+FUP
+
+FIX044
+
+FixedLTE up to 20Mbps Uncapped
+
+256.52
+
+295
+
+50GB
+
+FIX045
+
+FixedLTE up to 50Mbps Uncapped
+
+300.00
+
+345
+
+100GB
+
+FIX046
+
+FixedLTE up to 100Mbps Uncapped
+
+517.39
+
+595
+
+400GB
+
+FIX047
+
+FixedLTE up to 200Mbps Uncapped
+
+691.30
+
+795
+
+650GB
+
+FIX048
+
+FixedLTE up to 250Mbps Uncapped
+
+778.26
+
+895
+
+1TB
+
+ 
+
+ 
+
+4. Router Setup Instructions
+
+If the client chose a package that includes a router, it will likely be the below router. However, long-term clients might have our discontinued ZTE routers or a third-party router that is Fixed LTE approved. New clients with SIM-only packages may also have their own router—ensure it is Fixed LTE approved before troubleshooting.
+
+ 
+
+Please note, the list below shows the routers provided by RSAWEB the client may have, with links to their information
+
+ 
+
+RSAWEB Fixed LTE Routers:
+
+Legacy routers
+
+Huawei B315 (supplied prior to 2018)
+Huawei B315 Support
+Huawei B618 (supplied prior to 2018)
+Huawei B618 Support
+ZTE 253 LTE Router (supplied between 2018 - 2021)
+ZTE 253 Product Information
+ZTE 286C LTE Router (supplied between 2018 - 2021)
+ZTE 286C Support
+ 
+
+Current LTE Routers Being Supplied:
+
+TP-LINK AC1750 MR600 4G+ Router
+TP-LINK MR600 Support
+Cudy LT700
+Cudy LT700 Product Information
+ 
+
+
+
+TP-LINK AC1750 MR600 4G+ Router Setup:
+
+Access the Router Interface:
+Open a web browser and navigate to tplinkmodem.net (or use the default gateway from an ipconfig /all command).
+Login:
+Default username: admin
+Default password: admin
+ 
+
+
+ 
+
+Set up the APN:
+Go to Advanced Settings > Network > Internet.
+ 
+
+
+
+
+
+ 
+
+Create Profile:
+Profile name: RSAWEB
+APN type: Static
+APN: ws.rsaweb.fwa
+Authentication Type: None
+
+
+ 
+
+Save and apply settings.
+ Cudy LT700 Setup
+Access the Router Interface:
+First, open a web browser and go to http://cudy.net or http://192.168.10.1.
+
+Add the APN Details:
+Click General Settings->Cellular->APN.
+
+
+PDP Type: IPv4
+Profile Name: RSAWEB
+APN: ws.rsaweb.fwa
+Save and apply settings.
+
+ 
+
+5.    Common Troubleshooting Scenarios
+
+For all Fixed LTE services (capped & uncapped), the most important step is to always check if the customer has been capped and throttled on the Fixed LTE portal.
+
+ 
+
+Activation
+
+Check if the service is running in Myrsaweb. If not, the issue might be a failed connection.
+No Connection
+
+After completing the initial checks—such as verifying correct lights and ensuring the client is active on the portal without throttling or capping—it's important to perform the following checks before escalating.
+
+Remove SIM card.
+Ensure the router has been rebooted or hard reset (press the reset button using a toothpick or paperclip).
+Reinsert the SIM card.
+Check APN settings:
+PDP Type: IPv4
+Profile Name: RSAWEB
+APN: ws.rsaweb.fwa
+Check the signal light (3G/4G) and verify the signal strength in the router’s status information.
+Slow Speeds
+
+Is the issue affecting all connected devices?
+Perform a speed test on both RSAWEB and MTN servers.
+Run a speed test using the Speedtest.net app at https://www.speedtest.net, and make sure to test both the RSAWEB and MTN servers.
+
+Move the router to different areas to improve signal strength.
+Reboot and reconfigure the router if necessary.
+Connection Drops
+
+Ensure no devices are consuming high bandwidth in the background.
+Verify the router’s signal strength.
+Run ping and traceroute tests for further diagnostics.
+ 
+
+After completing all the checks, escalate the ticket with all relevant information. The fault will then be logged with the appropriate team (MTN, DEV, or NOC).
+
+ 
+
+6. Portal Information and Reporting a Fault
+
+The escalation team reviews the MTN portal for backend issues and any alerts that might affect the customer experience
+
+1. Login to the MTN Portal
+
+URL: MTN Self-Help Portal
+ 
+
+2. Self-Help Menu Functions
+
+MSISDN Lookup: Check information about the subscriber (MSISDN), SIM, and GPS coordinates for MTN coverage.
+Possible Status:
+Service Suspended - Location Locked
+Service Suspended - Device Locked
+Service Suspended - Compliance Locked
+Location Lookup: View MTN coverage based on the customer's GPS coordinates.
+ 
+
+  3.Log a Support Ticket
+
+Purpose: To report issues related to the Fixed LTE service.
+Escalation team - They will review the provided information and log a ticket with MTN to address the issue being experienced.
+Types of Issues to Log:
+Network Coverage Issues
+Single Service Issue
+Suspected MTN Network Issue
+ 
+
+4. Service Issue: Single MSISDN
+
+Issue Types:
+SIM Swap
+Suspend Service
+RICA Issue
+DMA Issue
+Unable to make or receive calls
+General issue with MSISDN
+ 
+
+5. Network Issue: Multiple MSISDNs
+
+Issue Types:
+General DMA or RICA Issue
+MTN Site or Area Down
+DNS or HSS Issue
+Multiple Customers unable to make or receive calls
+No Network Coverage
+General Issue Affecting Multiple MSISDNs
+ 
+
+6. Query Open Tickets
+
+Purpose: View all active support tickets with details including:
+Log date/time
+Ticket number
+Status updates
+ 
+
+ 
+
+7. SIM Management
+
+SIM Swaps for Lost or Damaged SIMs: Escalate to Projects - Logistics.
+Relocations: Provide the user’s name, contact number, and new address for relocations.
+ 
+
+ 
+
+8. Applicable Terms and Conditions
+
+Usage Policies:
+Uncapped Fixed LTE is governed by RSAWEB’s General Terms and Conditions, Privacy Policy, and Acceptable Use and Fair Usage Policy.
+Location Bound: The service will only work at the registered address unless a change is requested.
+Full terms and conditions: Uncapped Terms
+
+Link to article: 
