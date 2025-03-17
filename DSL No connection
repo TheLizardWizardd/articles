@@ -1,0 +1,37 @@
+Connecting to the router’s WiFi:
+·        Ensure that the wireless is enabled on your device and search for your specific WiFi name. Once you have found the 2.4GHz SSID, click on connect.
+
+·        Please check the back of the router/manual for these details
+
+·        Put in the wireless key/password when prompt – this can be found at the bottom of the router along with the SSID.
+
+Logging into the router’s interface:
+·        Once connected to the router following the above via cable or WiFi, open an internet browser.
+
+·        Enter the router’s default IP (which can be found at the bottom of the router) in the address bar of the browser – by default, the username and password is “admin”.
+
+·        If you cannot see the default login details or default IP, please check the manual that came with the router.
+
+Setting up PPPoE (Username and password authentication):
+·        If this is the first time that you are setting up the router or if you have reset the device and lost all previous settings, please follow the below steps.
+·        On the left pane, go to Network > WAN > select PPPoE as the Connection Type.
+
+·        Enter the username and password provided by your ISP.
+
+·        These fields are case-sensitive 
+
+ 
+
+Resetting your router:
+With the router powered on, hold down the reset button (for 10-15 seconds) until the lights start to flash.
+Release the button and wait for the router to reboot to its default settings.
+ 
+
+Troubleshooting: No connection:
+Check that the telephone cable is plugged securely into the Telkom wall socket and at the back of the router.
+Confirm that the PPPoE username and password are correct.
+Check for damage on the telephone cable and that it is connected to the ADSL line splitter - if the cable is damaged you will need to replace it.
+Connect the router directly into your Telkom socket, bypassing all micro-filters and listen for dial tone. If no dial tone, the customer will need to contact Telkom.
+Make a phone call to any number. If you hear noise or interference on the line, advise the customer to contact Telkom.
+
+Link to article: https://support.rsaweb.co.za/agent/rsaweb/all/help-center/page?articlestatus=published&showAllArticles=true&rootcategoryId=6557000000057106&categoryId=6557000278930253&status=published#Solutions/dv/6557000278930608/en
