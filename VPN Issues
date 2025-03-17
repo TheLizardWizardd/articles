@@ -54,3 +54,5 @@ Traceroute and Ping
 You may also verify this by running a traceroute and ping to the VPN IP. 
 
 Using the same methods above open the Command Prompt and type in tracert <VPN IP Address> to run a trace of the computers route from the internet connection to the server and ping <VPN IP Address> -t to run a continuous ping the VPN connection. 
+
+Link to article: https://support.rsaweb.co.za/agent/rsaweb/all/help-center/page?articlestatus=published&showAllArticles=true&rootcategoryId=6557000000057106&categoryId=6557000280684013&status=published#Solutions/dv/6557000278942176/en
