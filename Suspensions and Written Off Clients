@@ -1,0 +1,679 @@
+The collection process was created to automatically start sending notices and put customers profiles and in some cases, services in different states depending on at which point they are. They will be added to this process either automatically or manually when they have an outstanding balance when payment is due. The purpose of this is to collect the money owed to us.
+
+ 
+
+Current Process
+
+Payment methods: 
+
+ 
+
+Currently we only automatically suspend debit order customers. How this works is when a customer's payment bounces it will automatically add them to the collections process.
+
+ 
+
+ 
+
+Service suspensions:
+
+ 
+
+The following services gets automatically suspended via PSM (in other words, the provider won’t know they suspended, but we cut them off via our side): A reminder clients are still billed for their services whilst suspended. These clients get handled directly by accounts and does not touch projects or support. Suspending and unsuspending these clients are handled on Accounts Side.
+
+-       Octotel
+
+-       LTE
+
+-       Openserve
+
+ 
+
+The following services can get manually suspended by removing their IP. Helpdesk manages this. Only they can remove and readd the IP. Suspension noticed need to go to support to suspend and reactivate.
+
+-       Vumatel
+
+ 
+
+The following services can not be suspended, these services are not on our PSM yet. We therefore cannot effect their services when they are suspended. We do not need to be told that they are suspended or unsuspended for this reason.
+
+-       Frogfoot
+
+-       Century City Connect
+
+-       SADV
+
+-       Vuma Aerial (Fibrehoods)
+
+ 
+
+All other services do not get suspended, some of them being hosting, cloud, mobile data, mobile broadband, and the list goes on.
+
+ 
+
+Internal Staff Communication and Notes
+
+Important: 
+
+ 
+
+Please note that the general communication to be given to the customers are that without payment their services will be cancelled, which means that they will have to pay cancellation fees, as well as pay for the new installation, setup fee, etc. which in some cases, can take a couple of weeks for them to be connected again.
+
+ 
+
+Note:
+
+ 
+
+If you are not accounts (Finance) you are, in no way allowed to change the status of the collections process on the customers account, or activate/un-suspend services without authorisation from the Accounts team.
+
+ 
+
+Statuses / Transitions
+
+One of the reasons why the internal communication around cancellations are so important, is due to the fact that the status of the account (in the collection process) is not the same you see on the customers profile. Most of them show suspended, but would have already started cancellation of services. The run from top down.
+
+ 
+
+ 
+
+Collection Process Status
+
+Customer Profile Status
+
+Action Point (Internal)
+
+Pending Suspension
+
+Pending Suspension
+
+ 
+
+Suspended
+
+Suspended
+
+Services Suspended
+
+Final Notice
+
+Suspended
+
+Start of service cancellation
+
+Handed Over
+
+Suspended
+
+All services cancelled
+
+Legal
+
+Written Off
+
+ 
+
+Written Off
+
+Written Off
+
+Written off as bad debt
+
+Paid Up
+
+Active
+
+Customer Activated
+
+ 
+
+ 
+
+Communication to Customers
+
+Please note that accounts can manually set a customer forward in the process. This means that even though the email says the customer will get 5 days to pay, in some cases accounts will fast track the process and write customers off due to certain conditions.
+
+ 
+
+Status
+
+SMS
+
+Email
+
+Period
+
+Pending Suspension
+
+Hi, your payment of R{00} was not received. Please settle within 5 days to avoid service interruptions. For more - {Link}
+
+Hi <name>
+
+ 
+
+Your payment of R <00> to RSAWEB has returned as UNPAID.
+
+ 
+
+To avoid service interruption please pay your account by Tue 3rd September 2019. To view your statement, click here: Statement or alternatively please contact us on 0874700000.
+
+5 days
+
+Suspended
+
+Hi we’ve not yet received your payment of R{00}. Please settle your account to have your services reactivated.
+
+Hi <name>
+
+ 
+
+We’ve unfortunately had to suspend your RSAWEB account due to non-payment of R 5,856.10 and the collection process has started.
+
+ 
+
+Please pay your account by Tue 3rd September 2019 to get your services reinstated.
+
+ 
+
+It may take up to 72 hours for your services to be reactivated, after the payment is reflected on your statement.
+
+ 
+
+ 
+
+Call on 0874700000 or Click here View you statement: http://bit.ly/2ZzhLZU
+
+5 days
+
+Final Notice
+
+Final Notice: We’ve been unable to contact you. To avoid legal action, please contact arrangements for your balance of R{00}. For more <link>
+
+Hi <name>
+
+ 
+
+Please note that this is your final notice for the outstanding balance of R 5,856.10 on your account MAR440.
+
+ 
+
+We are in the process of cancelling your services, of which will incur cancellation fees, therefore please note that after cancellation you will have to pay the costs involved with re-ordering your services.
+
+ 
+
+To avoid being listed with the Credit Bureau, please pay your account immediately.
+
+ 
+
+Click here to download your statement: http://bit.ly/2ZzhLZU.
+
+ 
+
+If you have any questions, please give us a call on 0874700000.
+
+ 
+
+6 days
+
+Handed Over
+
+Hi, we’ve not yet received your payment of R<00>. Our friendly staff will be in touch to get you back online. For more <link>
+
+Hi <name>
+
+We had to initiate legal action for your outstanding balance of R 5,856.10 , please settle your account by Tue 3rd September 2019 to avoid unnecessary legal costs.
+
+ 
+
+Click here to download your statement: http://bit.ly/2ZzhLZU or call us on 0874700000 to make arrangements.
+
+ 
+
+5 days
+
+Legal
+
+Hi, we’ve had to initiate legal action for your outstanding balance, please settle your account to avoid unnecessary costs. For more <link>
+
+No email
+
+4 days
+
+Written Off
+
+Hi, we’ve had to initiate legal action for your outstanding balance, please settle your account to avoid unnecessary costs. For more <link>
+
+No email
+
+0 days
+
+Paid Up
+
+Thanks! We’ve received your payment.. For more <Link>
+
+Hi <name>
+
+ 
+
+We have received your payment and are currently in the process of reinstating your service and you should be connected soon.
+
+ 
+
+Activation might take up to but not limited to 72 hours.
+
+ 
+
+Click here to download your statement: http://bit.ly/2ZzhLZU.
+
+ 
+
+ 
+
+ 
+
+If you have any questions, please give us a call on 0874700000.
+
+ 
+
+ 
+
+ 
+
+Process Flow
+
+
+
+
+
+Collection Process (Written Off)
+
+ 
+
+-       Octotel
+
+Once the client is wrtiten off, we cancel the order on Periscope.
+
+If the client has been with us for less than a year, they are billed R1725 for installation and R650 for router. We also still require a calendar months notice for cancellations. If they had a promo when first signing up (example one month free, or a freebie) they are liable for those amounts too if it’s been within a year.
+
+In order to re-activate the line, a reconnect is processed. This takes 3-5 days to be accepted and processed. There is a reconnection fee of R862.50 to reconnect their services. The client is invoiced the re-connect fee, but credited the cancellation fees (router + installation)
+
+-       LTE
+
+Once the client is wrtiten off, we cancel the order on MYRSAWEB. This via API cancels the order on IS’s side.
+
+If the client has been with us for less than a year on any package EXCEPT the 20gig package or if they were sim only, they are billed for the router. If they took a ZTE router they are billed R1208. If they took the Huawei B168 they are billed R921 (they would have already paid R999).
+
+In order to re-activate the line, a sim swap is processed is processed. This takes 3-5 days to be accepted and processed. There is a sim swap fee and delivery fee of R170 to reconnect their services. The client is invoiced the re-connect fee, but credited the cancellation fees (router)
+
+ 
+
+ 
+
+-       Openserve
+
+ 
+
+Once the client is wrtiten off, we cancel the order on Openserve portal.
+
+If the client has been with us for less than a year they are billed R650 for the router and R1205 for the installation fee. Calendar months notice required. If they had a promo when first signing up (example one month free, or a freebie) they are liable for those amounts too if it’s been within a year.
+
+-       In order to re-activate the line. We need to request ownership of the B number. If the number is still available, it takes 3-5 days to be accepted and processed.  If the B number is no lnger available, a new order will need to be processed. A reconnection fee of R570 is charged.
+
+ 
+
+-       Vumatel Aerial and Vuma GPON
+
+Once the client is wrtiten off, we cancel the order on Vumatel portal.
+
+If the client has been with us for less than a year they are billed R650 for the router and R1725 for the installation fee. (unless they paid for it themselves upfront). If they are on a 24 month contract, they are charged the remained of the 24 months. Calendar months notice required. If they had a promo when first signing up (example one month free, or a freebie) they are liable for those amounts too if it’s been within a year.
+
+-       In order to re-activate the line. We need to request ownership of the Object number. If the number is still available, it takes 3-5 days to be accepted and processed.  If the object number is no lnger available, a new order will need to be processed. A reconnection fee of R1010 is charged.
+
+ 
+
+Frogfoot
+
+Once the client is wrtiten off, we cancel the order on Frogfoot portal. A calendar month notice is required.
+
+If the client has been with us for less than a year they are billed R650 for the router and R1765 for the installation fee. If they had a promo when first signing up (example one month free, or a freebie) they are liable for those amounts too if it’s been within a year.
+
+-       In order to re-activate the line. We need to Place a new order on FF. If the ONT is still intact they will process a reconnect.  Any problems and they will do a new installation (R1765 to be charged). A reconnection fee of R850 is charged in the scenario of a reconnect.
+
+Link to article: The collection process was created to automatically start sending notices and put customers profiles and in some cases, services in different states depending on at which point they are. They will be added to this process either automatically or manually when they have an outstanding balance when payment is due. The purpose of this is to collect the money owed to us.
+
+ 
+
+Current Process
+
+Payment methods: 
+
+ 
+
+Currently we only automatically suspend debit order customers. How this works is when a customer's payment bounces it will automatically add them to the collections process.
+
+ 
+
+ 
+
+Service suspensions:
+
+ 
+
+The following services gets automatically suspended via PSM (in other words, the provider won’t know they suspended, but we cut them off via our side): A reminder clients are still billed for their services whilst suspended. These clients get handled directly by accounts and does not touch projects or support. Suspending and unsuspending these clients are handled on Accounts Side.
+
+-       Octotel
+
+-       LTE
+
+-       Openserve
+
+ 
+
+The following services can get manually suspended by removing their IP. Helpdesk manages this. Only they can remove and readd the IP. Suspension noticed need to go to support to suspend and reactivate.
+
+-       Vumatel
+
+ 
+
+The following services can not be suspended, these services are not on our PSM yet. We therefore cannot effect their services when they are suspended. We do not need to be told that they are suspended or unsuspended for this reason.
+
+-       Frogfoot
+
+-       Century City Connect
+
+-       SADV
+
+-       Vuma Aerial (Fibrehoods)
+
+ 
+
+All other services do not get suspended, some of them being hosting, cloud, mobile data, mobile broadband, and the list goes on.
+
+ 
+
+Internal Staff Communication and Notes
+
+Important: 
+
+ 
+
+Please note that the general communication to be given to the customers are that without payment their services will be cancelled, which means that they will have to pay cancellation fees, as well as pay for the new installation, setup fee, etc. which in some cases, can take a couple of weeks for them to be connected again.
+
+ 
+
+Note:
+
+ 
+
+If you are not accounts (Finance) you are, in no way allowed to change the status of the collections process on the customers account, or activate/un-suspend services without authorisation from the Accounts team.
+
+ 
+
+Statuses / Transitions
+
+One of the reasons why the internal communication around cancellations are so important, is due to the fact that the status of the account (in the collection process) is not the same you see on the customers profile. Most of them show suspended, but would have already started cancellation of services. The run from top down.
+
+ 
+
+ 
+
+Collection Process Status
+
+Customer Profile Status
+
+Action Point (Internal)
+
+Pending Suspension
+
+Pending Suspension
+
+ 
+
+Suspended
+
+Suspended
+
+Services Suspended
+
+Final Notice
+
+Suspended
+
+Start of service cancellation
+
+Handed Over
+
+Suspended
+
+All services cancelled
+
+Legal
+
+Written Off
+
+ 
+
+Written Off
+
+Written Off
+
+Written off as bad debt
+
+Paid Up
+
+Active
+
+Customer Activated
+
+ 
+
+ 
+
+Communication to Customers
+
+Please note that accounts can manually set a customer forward in the process. This means that even though the email says the customer will get 5 days to pay, in some cases accounts will fast track the process and write customers off due to certain conditions.
+
+ 
+
+Status
+
+SMS
+
+Email
+
+Period
+
+Pending Suspension
+
+Hi, your payment of R{00} was not received. Please settle within 5 days to avoid service interruptions. For more - {Link}
+
+Hi <name>
+
+ 
+
+Your payment of R <00> to RSAWEB has returned as UNPAID.
+
+ 
+
+To avoid service interruption please pay your account by Tue 3rd September 2019. To view your statement, click here: Statement or alternatively please contact us on 0874700000.
+
+5 days
+
+Suspended
+
+Hi we’ve not yet received your payment of R{00}. Please settle your account to have your services reactivated.
+
+Hi <name>
+
+ 
+
+We’ve unfortunately had to suspend your RSAWEB account due to non-payment of R 5,856.10 and the collection process has started.
+
+ 
+
+Please pay your account by Tue 3rd September 2019 to get your services reinstated.
+
+ 
+
+It may take up to 72 hours for your services to be reactivated, after the payment is reflected on your statement.
+
+ 
+
+ 
+
+Call on 0874700000 or Click here View you statement: http://bit.ly/2ZzhLZU
+
+5 days
+
+Final Notice
+
+Final Notice: We’ve been unable to contact you. To avoid legal action, please contact arrangements for your balance of R{00}. For more <link>
+
+Hi <name>
+
+ 
+
+Please note that this is your final notice for the outstanding balance of R 5,856.10 on your account MAR440.
+
+ 
+
+We are in the process of cancelling your services, of which will incur cancellation fees, therefore please note that after cancellation you will have to pay the costs involved with re-ordering your services.
+
+ 
+
+To avoid being listed with the Credit Bureau, please pay your account immediately.
+
+ 
+
+Click here to download your statement: http://bit.ly/2ZzhLZU.
+
+ 
+
+If you have any questions, please give us a call on 0874700000.
+
+ 
+
+6 days
+
+Handed Over
+
+Hi, we’ve not yet received your payment of R<00>. Our friendly staff will be in touch to get you back online. For more <link>
+
+Hi <name>
+
+We had to initiate legal action for your outstanding balance of R 5,856.10 , please settle your account by Tue 3rd September 2019 to avoid unnecessary legal costs.
+
+ 
+
+Click here to download your statement: http://bit.ly/2ZzhLZU or call us on 0874700000 to make arrangements.
+
+ 
+
+5 days
+
+Legal
+
+Hi, we’ve had to initiate legal action for your outstanding balance, please settle your account to avoid unnecessary costs. For more <link>
+
+No email
+
+4 days
+
+Written Off
+
+Hi, we’ve had to initiate legal action for your outstanding balance, please settle your account to avoid unnecessary costs. For more <link>
+
+No email
+
+0 days
+
+Paid Up
+
+Thanks! We’ve received your payment.. For more <Link>
+
+Hi <name>
+
+ 
+
+We have received your payment and are currently in the process of reinstating your service and you should be connected soon.
+
+ 
+
+Activation might take up to but not limited to 72 hours.
+
+ 
+
+Click here to download your statement: http://bit.ly/2ZzhLZU.
+
+ 
+
+ 
+
+ 
+
+If you have any questions, please give us a call on 0874700000.
+
+ 
+
+ 
+
+ 
+
+Process Flow
+
+
+
+
+
+Collection Process (Written Off)
+
+ 
+
+-       Octotel
+
+Once the client is wrtiten off, we cancel the order on Periscope.
+
+If the client has been with us for less than a year, they are billed R1725 for installation and R650 for router. We also still require a calendar months notice for cancellations. If they had a promo when first signing up (example one month free, or a freebie) they are liable for those amounts too if it’s been within a year.
+
+In order to re-activate the line, a reconnect is processed. This takes 3-5 days to be accepted and processed. There is a reconnection fee of R862.50 to reconnect their services. The client is invoiced the re-connect fee, but credited the cancellation fees (router + installation)
+
+-       LTE
+
+Once the client is wrtiten off, we cancel the order on MYRSAWEB. This via API cancels the order on IS’s side.
+
+If the client has been with us for less than a year on any package EXCEPT the 20gig package or if they were sim only, they are billed for the router. If they took a ZTE router they are billed R1208. If they took the Huawei B168 they are billed R921 (they would have already paid R999).
+
+In order to re-activate the line, a sim swap is processed is processed. This takes 3-5 days to be accepted and processed. There is a sim swap fee and delivery fee of R170 to reconnect their services. The client is invoiced the re-connect fee, but credited the cancellation fees (router)
+
+ 
+
+ 
+
+-       Openserve
+
+ 
+
+Once the client is wrtiten off, we cancel the order on Openserve portal.
+
+If the client has been with us for less than a year they are billed R650 for the router and R1205 for the installation fee. Calendar months notice required. If they had a promo when first signing up (example one month free, or a freebie) they are liable for those amounts too if it’s been within a year.
+
+-       In order to re-activate the line. We need to request ownership of the B number. If the number is still available, it takes 3-5 days to be accepted and processed.  If the B number is no lnger available, a new order will need to be processed. A reconnection fee of R570 is charged.
+
+ 
+
+-       Vumatel Aerial and Vuma GPON
+
+Once the client is wrtiten off, we cancel the order on Vumatel portal.
+
+If the client has been with us for less than a year they are billed R650 for the router and R1725 for the installation fee. (unless they paid for it themselves upfront). If they are on a 24 month contract, they are charged the remained of the 24 months. Calendar months notice required. If they had a promo when first signing up (example one month free, or a freebie) they are liable for those amounts too if it’s been within a year.
+
+-       In order to re-activate the line. We need to request ownership of the Object number. If the number is still available, it takes 3-5 days to be accepted and processed.  If the object number is no lnger available, a new order will need to be processed. A reconnection fee of R1010 is charged.
+
+ 
+
+Frogfoot
+
+Once the client is wrtiten off, we cancel the order on Frogfoot portal. A calendar month notice is required.
+
+If the client has been with us for less than a year they are billed R650 for the router and R1765 for the installation fee. If they had a promo when first signing up (example one month free, or a freebie) they are liable for those amounts too if it’s been within a year.
+
+-       In order to re-activate the line. We need to Place a new order on FF. If the ONT is still intact they will process a reconnect.  Any problems and they will do a new installation (R1765 to be charged). A reconnection fee of R850 is charged in the scenario of a reconnect.
