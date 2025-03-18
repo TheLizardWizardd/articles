@@ -1,0 +1,44 @@
+What is a Ping?
+A ping test sends a small packet of data from your computer to the server and measures the amount of time it takes to get there.
+This is done to see if there is any latency between the two devices.
+
+What is a Traceroute?
+
+A traceroute is used to determine the path that a packet of data takes on the network from your computer to the source or address you are trying to reach.
+A traceroute records the amount of time taken for each hop the data packet makes on route to its destination.
+
+What is the Difference?
+The main difference between Ping and Traceroute is that Ping is a quick and easy utility to tell if the specified server is reachable and how long will it take to send and receive data from the server whereas Traceroute finds the exact route taken to reach the server and time taken by each step (hop).
+
+How to Perform a Ping on Windows
+Open the Start menu.
+Click on Run.
+Type cmd and then press the OK button to open a command prompt.
+At the prompt, type: ping www.rsaweb.co.za and press the Enter key.
+To copy the Ping from the prompt, please right-click on the MS-DOS window and choose Mark.
+Then select the text with your mouse and right-click or press Enter on your keyboard to save the marked text to your clipboard.
+Then you can paste it by pressing Ctrl+V into a text file or your email client.
+How to Perform a Ping on Mac OS
+Launch Network Utility.
+Click Ping.
+Enter google.com
+Click Ping.
+Select and copy the results. ...
+Paste the text into a text editor (TextEdit, etc.) and save the file.
+How to Perform a Traceroute on Windows
+Open the Start menu.
+Click on Run.
+Type cmd and then press the OK button to open a command prompt.
+At the prompt, type: tracert google.com and press the Enter key.
+To copy the traceroute results from the command prompt, right-click on the MS-DOS window and choose Mark.
+Then select the text with your mouse and right-click or press Enter on your keyboard to save the marked text to your clipboard.
+Then you can paste it by pressing Ctrl+V into a text file or your email.
+How to Perform a Traceroute on Mac OS
+Launch Network Utility.
+Click Traceroute.
+Enter google.com
+Click Trace.
+Select and copy the results.
+Paste the text into a text editor (TextEdit, etc.) and save the file.
+
+Link to article: https://support.rsaweb.co.za/agent/rsaweb/all/help-center/page?articlestatus=published&showAllArticles=true&rootcategoryId=6557000000057106&categoryId=6557000278926198&status=published#Solutions/dv/6557000388456261/en
