@@ -1,0 +1,63 @@
+Video for Clients to Self Activate
+Sharepoint Link
+How to activate your Octotel Fibre video_2023_03 1.mp4
+Activation
+After confirming that the customer's service is completed and active in Periscope, the customer will need to connect a device to their WiFi.
+*They will need to be only connected to the wifi and turn off all mobile data and mobile hotspot connections*
+
+Once they are connected, direct them to activate.rsaweb.co.za and they should see the below splash page to enter their OTP key.
+
+
+When they click on "Get Fibre Internet" they will get the below to activate their fibre package.
+
+
+
+Troubleshooting
+OTP expired or not working
+Go to the customer's service on MyRSAWEB, manage the service and select "Send DHCP OTP"
+
+
+After you have sent the OTP you can then manage the service and you will find the OTP under "History"
+
+
+Check the router configuration
+If the client is getting an orange internet light, ensure that the ethernet is connected correctly to the WAN port from the ONT LAN.
+Login in to the router and check that the Operation mode is set to Router Mode and not Access Point.
+Who gets the OTP SMS?
+The technical contact on the customer's account will receive the key - if there is no technical contact the order cannot be activated/run
+
+Successfully activated page
+
+
+- Clear the browser cache 
+
+
+- Make sure that the customer is only connected to the RSAWEB supplied service and disconnect all mobile data and mobile hotspot connections
+
+Escalation
+These steps are imperative for OTP troubleshooting
+- Confirm the correct address where the customer is
+- Confirm if they are using a new router
+- Determine that the customer is getting the correct IP address (If it is not an RSAWEB IP or no IP address, e.g. 169, 172... log a fault with the provider)
+- Confirm that the service is created under the customer's profile, if the service is not there, update the order as shown below.
+
+For the order to run, the FSP status needs to be completed.
+- Confirm that the customer is not suspended on MyRSAWEB - if they are, reach out to the Accounts department
+- Before sending the ticket to L2 to escalate to SOC, please ensure that the following steps have been completed and noted in the ticket.
+Ping 8.8.8.8
+Ping google.com
+Confirm that the customer has not set their own DNS as only the RSAWEB DNS will allow activation (The customer can change their DNS once they are activated)
+If the customer has more than one service on the account, confirm that you are activating the correct one.
+A hard reboot has been completed: (unplugging the power cable)
+Tried using incognito:
+Confirm router Operation mode:
+The below will need to be included:
+Customer name:
+Address:
+IP:
+MAC:
+New or old client:
+Is the service active on the profile:
+Circuit number
+
+Link to article: https://support.rsaweb.co.za/agent/rsaweb/all/help-center/page?articlestatus=published&showAllArticles=true&rootcategoryId=6557000000057106&categoryId=6557000278926637&status=published#Solutions/dv/6557000290433843/en
