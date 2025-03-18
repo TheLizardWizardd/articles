@@ -1,0 +1,36 @@
+NB: Client speed tests should be done with a LAN cable and one device connected doing the test.  This will provide the best possible results unless the client is having an issue with wireless drops. 
+ 
+Troubleshooting the CPE
+Turn off the ONT and router for at least 10 seconds. Continue to monitor for dropouts.
+When the connection drops, check those other devices on the network via cable or wifi to see if they have dropped too.
+Ensure that the router is connected correctly to the ONT.
+
+PingPlotter & WINMTR
+If you are still having issues with the above, proceed with testing the connection through PingPlotter or WINMTR.
+
+The below will need to be completed on a laptop or desktop: 
+PingPlotter for MAC: https://support.rsaweb.co.za/support/rsaweb/ShowHomePage.do?articlestatus=published#Solutions/dv/6557000290521034/en
+WINMTR for Windows: https://support.rsaweb.co.za/support/rsaweb/ShowHomePage.do?articlestatus=latest#Solutions/dv/6557000278942416/en
+
+WiFi Dropouts
+Stand next to the router to rule out signal issues - move further away and see if the drops persist.
+If the connection drops in certain parts of the house, proceed with improving the wireless signal.
+Check other devices connected to the routers via wifi and cable to see if those drop connections too.
+If possible, check if devices drop out via an ethernet cable (laptop or PC).
+Setting the best channel for your wireless network:
+Go to your wireless router’s administration interface and click on advance 
+ 
+
+ 
+ From there you would need to click on the wireless network(s) that is broadcasting 
+ 
+
+ 
+Once you are there you are able to use one of the channels that are recommended by the Wifi Analyzer app as well as change the Channel Width and Transmit Power to High.  
+ 
+
+ 
+To change the 5GHz signal you will need to click on 5GHz on the top right and do the same. 
+ 
+
+Link to article: https://support.rsaweb.co.za/agent/rsaweb/all/help-center/page?articlestatus=published&showAllArticles=true&rootcategoryId=6557000000057106&categoryId=6557000278926198&status=published#Solutions/dv/6557000290521356/en
