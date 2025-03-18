@@ -1,0 +1,52 @@
+How to run an Openserve Order on MYRSAWEB
+
+DO NOT RUN SERVICES FOR API FNO's (Octotel, Vumatel, Frogfoot)
+
+Openserve is the only provider that requires the services to be run in order for the customer to connect
+
+We are able to see the schedule for Openserve installs by checking your email for a mail from : OpenServe.Reports@openserve.co.za
+
+
+On that email you will find an excel spreadsheet attached showing the orders and their status.
+
+A - Column A is the order number which you will see on Myrsaweb on the order number you will be running
+G - Column G is the circuit number
+I - Column I should always be Putting-into-Service for you to activate
+M - Column M is the go live date which is when the service should be run from (not from when customer calls in).
+
+
+Please note we do not however have to wait for them to appear on the daily report to run the order!
+
+The daily report and assurance portal only gets updated 24 hours later. We cannot keep a customer waiting for 24 hours to get their service added.
+
+If the client calls in we can check the below and assist further as required.
+
+Are they seeing three green lights on the ONT ( PWR/Power , PON , LAN)? if these lights are the ones displaying then the service
+Ask for their B number (which is found on their ONT). if they have their B-number then you can run the order
+
+
+Step 1
+Navigate to MYRSAWEB
+
+Step 2
+Locate the customers profile using the customer code on the project
+
+
+Step 3
+Navigate to the Orders Tab
+
+
+Step 4
+Locate the correct service that needs to be run. The address can be seen when viewing the order.
+Select Manage > View this order
+
+
+Step 5
+The information can be cross referenced with the project to ensure the correct service is being run. Scroll down and select Run this order
+
+
+Step 6
+Enter in the circuit number and the Activation date and select Yes, run this order
+
+
+Link to article: https://support.rsaweb.co.za/agent/rsaweb/all/help-center/page?articlestatus=published&showAllArticles=true&rootcategoryId=6557000000057106&categoryId=6557000278926637&status=published#Solutions/dv/6557000458294357/en
