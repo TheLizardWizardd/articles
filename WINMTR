@@ -1,0 +1,25 @@
+What is WINMTR
+MTR or My Traceroute is a computer program that combines the functions of a Ping and Traceroute in one diagnostic tool. MTR probes the connection measuring the capabilities of Ping with hop-to hop analysis of a Traceroute. It uses Internet Control Message Protocol (ICMP ping) to measure the availability of devices and length of time to travel between devices and across the internet.
+
+To understand how MTR works you will need to understand what Ping and Traceroutes are:
+
+What is Ping?
+Ping is one of the most commonly used network diagnostic tools. With this tool, the user can send ICMP packets from one computer to another, and the receiving computer then replies with a similar echo reply once the packets arrive. The reply packet tells you if a device is available or not. If there is no response back, the PC is unavailable.
+
+What is Traceroute?
+Traceroute, like Ping, is one of the common networking tools that record the route taken between the sender and receiver. It is used primarily used to pinpoint problem areas within a network. If a hop takes long to travel then it is a good indication that there is a problem.
+
+
+How to use WINMTR
+- Download WinMTR from https://sourceforge.net/projects/winmtr/files/WinMTR-v092.zip/download 
+- Extract the contents of the .zip file to your desktop.  https://www.winzip.com/win/en/lanrar.html 
+- Open the WinMTR folder, then open the folder that matches your version of Windows (32-bit or 64-bit) and run WinMTR.exe. 
+- Please run a test to google.com or any website you are having issues with. 
+
+
+Click Start, run overnight then click Stop in WinMTR. Please run this when you are experiencing the issues. 
+
+
+Click "Export Text" and save the .txt file to your desktop. Name this file WinMTR. 
+
+Link to article: https://support.rsaweb.co.za/agent/rsaweb/all/help-center/page?articlestatus=published&showAllArticles=true&rootcategoryId=6557000000057106&categoryId=6557000278926198&status=published#Solutions/dv/6557000278942416/en
